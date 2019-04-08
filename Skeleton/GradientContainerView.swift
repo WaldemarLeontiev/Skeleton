@@ -41,7 +41,7 @@ public class GradientContainerView: UIView {
 
 public extension GradientContainerView {
   /// A convenient way to access the `GradientContainerView`'s corresponding `CAGradientLayer`.
-  public var gradientLayer: CAGradientLayer {
+  var gradientLayer: CAGradientLayer {
     return gradientView.gradientLayer
   }
 }
